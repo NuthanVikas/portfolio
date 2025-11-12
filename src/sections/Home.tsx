@@ -17,8 +17,8 @@ const Home = () => (
         <p className="text-sm uppercase tracking-[0.4em] text-secondary">
           Hello, I&apos;m Nuthan Vikas
         </p>
-        <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
-          I craft modern, AI-friendly interfaces with React & Tailwind CSS.
+        <h1 className="text-2xl font-bold leading-tight md:text-3xl lg:text-4xl">
+          I design intelligent research workflows and build AI-powered systems using LangGraph, LLMs, and seamless frontend integration.
         </h1>
         <p className="text-base text-slate-300">
           I enjoy turning fuzzy ideas into polished, production-ready web
@@ -46,9 +46,9 @@ const Home = () => (
         <p className="text-sm font-medium text-secondary">Quick snapshot</p>
         <ul className="mt-6 space-y-4">
           {[
-            { label: 'Years building products', value: '4+' },
-            { label: 'Focus areas', value: 'AI tooling · Dashboards · UX' },
-            { label: 'Currently learning', value: 'Design systems & DX' },
+            
+            { label: 'Focus areas', value: 'AI agents · Research automation · LangGraph workflows' },
+            { label: 'Currently learning', value: 'Advanced LLM orchestration & frontend integration' },
           ].map((item) => (
             <li
               key={item.label}

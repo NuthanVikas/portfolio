@@ -11,28 +11,27 @@ const About = () => (
     <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
       <SectionHeader
         eyebrow="About"
-        title="A curious problem-solver who values clean UX"
-        description="I started with simple landing pages, and over time moved into building AI assistants, dashboards, and tools that help teams make decisions faster."
+        title="Health Data Science graduate passionate about using AI to solve real-world problems. Skilled in building intelligent workflows and automation pipelines with LangChain, LangGraph, AutoGen, and n8n to turn data into actionable insights."
+        description="This portfolio highlights my work in AI-driven automation, showcasing projects that use advanced AI frameworks to build workflows, automate processes, and generate actionable insights."
       />
 
       <div className="space-y-5 rounded-3xl border border-white/5 bg-white/5 p-6 text-sm text-slate-200 shadow-card backdrop-blur">
         <p>
           Today I focus on:
-          <span className="text-white"> frontend architecture, DX, </span>
-          and <span className="text-white">human-friendly interfaces.</span>
+          <span className="text-white"> AI-driven workflows, data automation, </span>
+          and <span className="text-white">creating intuitive, user-friendly interfaces for complex processes.</span>
         </p>
         <p>
-          When collaborating, I love pair-design sessions, rapid prototypes, and
-          documenting components so anyone can jump in and contribute.
+          When collaborating, I enjoy pair-designing solutions, rapid prototyping, and documenting workflows so team members can easily contribute and extend projects.
         </p>
         <ul className="space-y-3 text-slate-300">
           <li className="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-2">
             <span>Tools</span>
-            <span className="text-white">React · Next.js · Tailwind CSS</span>
+            <span className="text-white">Langchain · Langgraph · Autogen</span>
           </li>
           <li className="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-2">
             <span>Other skills</span>
-            <span className="text-white">TypeScript · API design · UX writing</span>
+            <span className="text-white">Data analysis · Health data modeling</span>
           </li>
           <li className="flex items-center justify-between rounded-2xl bg-white/5 px-4 py-2">
             <span>Location</span>
