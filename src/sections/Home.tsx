@@ -18,12 +18,11 @@ const Home = () => (
           Hello, I&apos;m Nuthan Vikas
         </p>
         <h1 className="text-2xl font-bold leading-tight md:text-3xl lg:text-4xl">
-          I design intelligent research workflows and build AI-powered systems using LangGraph, LLMs, and seamless frontend integration.
+          I design intelligent research workflows using LangGraph, LLMs, and seamless frontend integration.
         </h1>
         <p className="text-base text-slate-300">
-          I enjoy turning fuzzy ideas into polished, production-ready web
-          experiences. Below are a few highlights along with ways to get in
-          touch.
+          I like turning ideas into working projects—both in the backend with AI workflows and in the frontend with clean,
+          usable interfaces. Here are some of the things I have built and ways to contact me.
         </p>
         <div className="flex flex-col gap-4 pt-4 sm:flex-row sm:justify-center md:justify-start">
           <a

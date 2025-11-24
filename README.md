@@ -40,7 +40,7 @@ src/
 
 - **Branding** – Update the name, intro, and quick facts in `Home.tsx`; tweak colors/fonts in `tailwind.config.js`.
 - **Projects** – Add/edit entries in `src/data/projects.ts`. Each card auto-renders tech chips + links.
-- **Contact** – Hook the form submit handler in `Contact.tsx` to your backend/Formspree/etc. Social icons read from `src/data/contact.ts`.
+- **Contact** – Point `VITE_CONTACT_FORM_ENDPOINT` (see `.env.example`) to your backend/Formspree endpoint; the form POSTs JSON and shows inline success/error states. Social icons read from `src/data/contact.ts`.
 - **Animations** – Components rely on Tailwind transitions and subtle background gradients; adjust classes or add libraries if you want more motion.
 
 The code is heavily commented so you can quickly see what each section does and extend it with confidence.

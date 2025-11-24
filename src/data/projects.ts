@@ -3,14 +3,6 @@ import type { Project } from '../types/content'
 // Each entry renders as a card in the Projects section.
 export const projects: Project[] = [
   {
-    title: 'Testing Toolkit',
-    description:
-      'A set of utilities that automate smoke tests and share run summaries for every deployment.',
-    liveUrl: 'https://testing-toolkit.example.com',
-    repoUrl: 'https://github.com/NuthanVikas/testing.git',
-    tech: ['React', 'Vitest', 'GitHub Actions'],
-  },
-  {
     title: 'Research & Report Assistant',
     description:
       'LLM-powered assistant that gathers healthcare insights, summarises findings, and exports structured reports.',
@@ -20,11 +12,15 @@ export const projects: Project[] = [
     tech: ['Next.js', 'TypeScript', 'OpenAI API'],
   },
   {
-    title: 'Portfolio Template',
+    title: 'AI Medical Assistant',
     description:
-      'A starter site made with React and Tailwind CSS so anyone can launch a personal site fast.',
-    liveUrl: 'https://portfolio-starter.example.com',
-    repoUrl: 'https://github.com/vikas-dev/portfolio-template',
-    tech: ['React', 'Tailwind CSS', 'Netlify'],
+      'An AI Medical Assistant that helps users check symptoms, schedule doctor appointments, and get basic drug information. The system uses multiple AI agents to guide users through each step.',
+    repoUrl: 'https://github.com/NuthanVikas/AI_Medical_Assistant.git',
+  },
+  {
+    title: 'AI Travel Planner',
+    description:
+      'An AI tool that creates travel plans by finding places to visit, estimating costs, and generating day-by-day itineraries automatically.',
+    repoUrl: 'https://github.com/NuthanVikas/Travel_Planner.git',
   },
 ]
