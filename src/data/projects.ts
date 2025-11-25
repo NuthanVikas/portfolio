@@ -6,7 +6,6 @@ export const projects: Project[] = [
     title: 'Research & Report Assistant',
     description:
       'LLM-powered assistant that gathers healthcare insights, summarises findings, and exports structured reports.',
-    liveUrl: 'https://research-assistant.example.com',
     repoUrl:
       'https://github.com/NuthanVikas/research_and_report_assistant.git',
     tech: ['Next.js', 'TypeScript', 'OpenAI API'],
